@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin; /* Sets the gap between rows and columns */
+}
+
+.box {
+  width: calc(100% / 3 - 1vmin); /* Adjust width to account for the gap */
+  height: calc(100% / 3 - 1vmin); /* Adjust height to account for the gap */
+  border: 1px solid white; /* Add border */
+  border-radius: 6px;
+  background-color: #ccc;
+  font-size: 7vmin; /* Add a background color for visibility */
+  color: rgb(193, 61, 61);
+}
+
+body {
+  background-color: #e5e8b6;
+}
+
+h1 {
+  text-align: center;
+}
+#reset-btn {
+  margin: 10px;
+  padding: 0.85rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: #fff;
+}
+#rbar {
+  /* display:flex;
+      justify-content:center;
+      align-items:center; */
+  text-align: center;
+  font-size: 30px;
+  color: royalblue;
+}
+.newGame {
+  margin: 20px;
+  padding: 0.85rem;
+  font-size: 1.05rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: #fff;
+}
+.win {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .hide{
+      display:none;
+    } */
